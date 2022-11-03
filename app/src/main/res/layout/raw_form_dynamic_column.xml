@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:background="@drawable/border_lines"
+    android:gravity="center"
+    android:id="@+id/linearlayout_main"
+    >
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/hvcodes"
+        android:layout_width="200dp"
+        android:textColor="@color/black"
+        android:text="HV Codes"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:padding="2dp"
+        android:textSize="16sp" />
+
+    <LinearLayout
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <!-- <LinearLayout
+             android:layout_width="200dp"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="5dp"
+             android:layout_marginTop="10dp"/>-->
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:visibility="visible"
+            android:textColor="@color/black"
+            android:ellipsize="end"
+            android:maxLines="5"
+
+
+            android:layout_gravity="center"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp" />
+
+
+        <LinearLayout
+            android:id="@+id/llSpinner"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.example.manoj.hyveg_observation.services.NoScrollRecycler
+                android:id="@+id/rvRowSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never"
+                android:nestedScrollingEnabled="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llEditText"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.example.manoj.hyveg_observation.services.NoScrollRecycler
+                android:id="@+id/rvRowEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never"
+                android:nestedScrollingEnabled="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llCheckBox"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvRowCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never"
+                android:nestedScrollingEnabled="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llDate"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.example.manoj.hyveg_observation.services.NoScrollRecycler
+                android:id="@+id/rvRowDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never"
+                android:nestedScrollingEnabled="false"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llImages"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.example.manoj.hyveg_observation.services.NoScrollRecycler
+                android:id="@+id/rvRowImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never"
+                android:nestedScrollingEnabled="false"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!--    </HorizontalScrollView>-->
+</LinearLayout>

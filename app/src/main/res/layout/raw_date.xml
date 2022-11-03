@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rdate"
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_weight="1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:foregroundGravity="center"
+    android:gravity="center"
+    android:background="@drawable/new_border_lines"
+    android:padding="5dp"
+
+
+    >
+
+    <TextView
+
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="28dp"
+        android:paddingEnd="5dp"
+        android:maxLength="18"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/ed_bg"
+        android:textSize="14sp"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/calander"
+        android:contentDescription="img_date"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>

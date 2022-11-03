@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "368963454487",
+    "firebase_url": "https://hyveg-observation.firebaseio.com",
+    "project_id": "hyveg-observation",
+    "storage_bucket": "hyveg-observation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368963454487:android:3e014139c0f5599d237e52",
+        "android_client_info": {
+          "package_name": "com.example.manoj.hyveg_observation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368963454487-28k8h604gtgv5gkfmjlk6q8aqfeg5jqh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manoj.hyveg_observation",
+            "certificate_hash": "eb766358656a111a0094237b5ab7cc5704339019"
+          }
+        },
+        {
+          "client_id": "368963454487-r1vid6vnm597iti19qgie1cftabiph52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRTaEgu25qgrSnMPvTavskRndwbGxUS74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368963454487-r1vid6vnm597iti19qgie1cftabiph52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

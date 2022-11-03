@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorBlueDark</item>
+
+        <item name="android:statusBarColor">@color/colorBlueDark</item>
+    </style>
+
+    <style name="MyCustomTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="homeAsUpIndicator">@drawable/back</item>
+        <item name="android:titleTextColor" tools:targetApi="m">@color/colorPrimary</item>
+        <item name="drawerArrowStyle">@style/MyDrawerArrowToggle</item>
+    </style>
+    <style name="MyDrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAppearance">@style/CustomTabWidgetText</item>
+    </style>
+    <style name="CustomTabWidgetText"
+        parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="StyledDialog" parent="@android:style/Theme.Panel">
+        <item name="android:background">#ffffffff</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FF070408</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface"> serif </item>
+    </style>
+
+
+</resources>
+
+

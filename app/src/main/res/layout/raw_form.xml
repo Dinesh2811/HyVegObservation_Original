@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:nestedScrollingEnabled="false"
+    android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:nestedScrollingEnabled="false"
+            android:layout_marginTop="10dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvName"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/llSpinner"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/sp1"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:prompt="@string/please_select"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/sp2"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:prompt="@string/please_select"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/sp3"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:prompt="@string/please_select"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/sp4"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:prompt="@string/please_select"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/sp5"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:prompt="@string/please_select"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/sp6"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:prompt="@string/please_select"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/sp7"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:prompt="@string/please_select"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/sp8"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:prompt="@string/please_select"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/sp9"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:prompt="@string/please_select"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/sp10"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:prompt="@string/please_select"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et1"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et2"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et3"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et4"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et5"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et6"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et7"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et8"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et9"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="20sp" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et10"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llCheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvRowCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"/>
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/llDateText"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <RelativeLayout-->
+<!--                android:id="@+id/rdate1"-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="35dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_weight="1"-->
+<!--                xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/date1"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:paddingStart="28dp"-->
+<!--                    android:paddingEnd="5dp"-->
+<!--                    android:maxLength="18"-->
+<!--                    android:paddingTop="5dp"-->
+<!--                    android:paddingBottom="5dp"-->
+<!--                    android:background="@drawable/ed_bg"-->
+<!--                    android:textSize="14sp"-->
+<!--                    android:visibility="visible"/>-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="15dp"-->
+<!--                    android:layout_height="15dp"-->
+<!--                    android:layout_alignParentStart="true"-->
+<!--                    android:layout_marginStart="10dp"-->
+<!--                    android:layout_marginTop="8dp"-->
+<!--                    android:src="@drawable/calander"-->
+<!--                    android:contentDescription="img_date"-->
+<!--                    tools:ignore="HardcodedText" />-->
+<!--            </RelativeLayout>-->
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/rdate2"-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                    xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/date2"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingStart="28dp"-->
+<!--                        android:paddingEnd="5dp"-->
+<!--                        android:maxLength="18"-->
+<!--                        android:paddingTop="5dp"-->
+<!--                        android:paddingBottom="5dp"-->
+<!--                        android:background="@drawable/ed_bg"-->
+<!--                        android:textSize="14sp"-->
+<!--                        android:visibility="visible"/>-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="15dp"-->
+<!--                        android:layout_height="15dp"-->
+<!--                        android:layout_alignParentStart="true"-->
+<!--                        android:layout_marginStart="10dp"-->
+<!--                        android:layout_marginTop="8dp"-->
+<!--                        android:src="@drawable/calander"-->
+<!--                        android:contentDescription="img_date"-->
+<!--                        tools:ignore="HardcodedText" />-->
+<!--                </RelativeLayout>-->
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/rdate3"-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                    xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/date3"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingStart="28dp"-->
+<!--                        android:paddingEnd="5dp"-->
+<!--                        android:maxLength="18"-->
+<!--                        android:paddingTop="5dp"-->
+<!--                        android:paddingBottom="5dp"-->
+<!--                        android:background="@drawable/ed_bg"-->
+<!--                        android:textSize="14sp"-->
+<!--                        android:visibility="visible"/>-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="15dp"-->
+<!--                        android:layout_height="15dp"-->
+<!--                        android:layout_alignParentStart="true"-->
+<!--                        android:layout_marginStart="10dp"-->
+<!--                        android:layout_marginTop="8dp"-->
+<!--                        android:src="@drawable/calander"-->
+<!--                        android:contentDescription="img_date"-->
+<!--                        tools:ignore="HardcodedText" />-->
+<!--                </RelativeLayout>-->
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/rdate4"-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                    xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/date4"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingStart="28dp"-->
+<!--                        android:paddingEnd="5dp"-->
+<!--                        android:maxLength="18"-->
+<!--                        android:paddingTop="5dp"-->
+<!--                        android:paddingBottom="5dp"-->
+<!--                        android:background="@drawable/ed_bg"-->
+<!--                        android:textSize="14sp"-->
+<!--                        android:visibility="visible"/>-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="15dp"-->
+<!--                        android:layout_height="15dp"-->
+<!--                        android:layout_alignParentStart="true"-->
+<!--                        android:layout_marginStart="10dp"-->
+<!--                        android:layout_marginTop="8dp"-->
+<!--                        android:src="@drawable/calander"-->
+<!--                        android:contentDescription="img_date"-->
+<!--                        tools:ignore="HardcodedText" />-->
+<!--                </RelativeLayout>-->
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/rdate5"-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                    xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/date5"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingStart="28dp"-->
+<!--                        android:paddingEnd="5dp"-->
+<!--                        android:maxLength="18"-->
+<!--                        android:paddingTop="5dp"-->
+<!--                        android:paddingBottom="5dp"-->
+<!--                        android:background="@drawable/ed_bg"-->
+<!--                        android:textSize="14sp"-->
+<!--                        android:visibility="visible"/>-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="15dp"-->
+<!--                        android:layout_height="15dp"-->
+<!--                        android:layout_alignParentStart="true"-->
+<!--                        android:layout_marginStart="10dp"-->
+<!--                        android:layout_marginTop="8dp"-->
+<!--                        android:src="@drawable/calander"-->
+<!--                        android:contentDescription="img_date"-->
+<!--                        tools:ignore="HardcodedText" />-->
+<!--                </RelativeLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/rdate6"-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                    xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/date6"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingStart="28dp"-->
+<!--                        android:paddingEnd="5dp"-->
+<!--                        android:maxLength="18"-->
+<!--                        android:paddingTop="5dp"-->
+<!--                        android:paddingBottom="5dp"-->
+<!--                        android:background="@drawable/ed_bg"-->
+<!--                        android:textSize="14sp"-->
+<!--                        android:visibility="visible"/>-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="15dp"-->
+<!--                        android:layout_height="15dp"-->
+<!--                        android:layout_alignParentStart="true"-->
+<!--                        android:layout_marginStart="10dp"-->
+<!--                        android:layout_marginTop="8dp"-->
+<!--                        android:src="@drawable/calander"-->
+<!--                        android:contentDescription="img_date"-->
+<!--                        tools:ignore="HardcodedText" />-->
+<!--                </RelativeLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/rdate7"-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                    xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/date7"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingStart="28dp"-->
+<!--                        android:paddingEnd="5dp"-->
+<!--                        android:maxLength="18"-->
+<!--                        android:paddingTop="5dp"-->
+<!--                        android:paddingBottom="5dp"-->
+<!--                        android:background="@drawable/ed_bg"-->
+<!--                        android:textSize="14sp"-->
+<!--                        android:visibility="visible"/>-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="15dp"-->
+<!--                        android:layout_height="15dp"-->
+<!--                        android:layout_alignParentStart="true"-->
+<!--                        android:layout_marginStart="10dp"-->
+<!--                        android:layout_marginTop="8dp"-->
+<!--                        android:src="@drawable/calander"-->
+<!--                        android:contentDescription="img_date"-->
+<!--                        tools:ignore="HardcodedText" />-->
+<!--                </RelativeLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/rdate8"-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                    xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/date8"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingStart="28dp"-->
+<!--                        android:paddingEnd="5dp"-->
+<!--                        android:maxLength="18"-->
+<!--                        android:paddingTop="5dp"-->
+<!--                        android:paddingBottom="5dp"-->
+<!--                        android:background="@drawable/ed_bg"-->
+<!--                        android:textSize="14sp"-->
+<!--                        android:visibility="visible"/>-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="15dp"-->
+<!--                        android:layout_height="15dp"-->
+<!--                        android:layout_alignParentStart="true"-->
+<!--                        android:layout_marginStart="10dp"-->
+<!--                        android:layout_marginTop="8dp"-->
+<!--                        android:src="@drawable/calander"-->
+<!--                        android:contentDescription="img_date"-->
+<!--                        tools:ignore="HardcodedText" />-->
+<!--                </RelativeLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/rdate9"-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                    xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/date9"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingStart="28dp"-->
+<!--                        android:paddingEnd="5dp"-->
+<!--                        android:maxLength="18"-->
+<!--                        android:paddingTop="5dp"-->
+<!--                        android:paddingBottom="5dp"-->
+<!--                        android:background="@drawable/ed_bg"-->
+<!--                        android:textSize="14sp"-->
+<!--                        android:visibility="visible"/>-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="15dp"-->
+<!--                        android:layout_height="15dp"-->
+<!--                        android:layout_alignParentStart="true"-->
+<!--                        android:layout_marginStart="10dp"-->
+<!--                        android:layout_marginTop="8dp"-->
+<!--                        android:src="@drawable/calander"-->
+<!--                        android:contentDescription="img_date"-->
+<!--                        tools:ignore="HardcodedText" />-->
+<!--                </RelativeLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:id="@+id/rdate10"-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_height="35dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--                    xmlns:tools="http://schemas.android.com/tools">-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/date10"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:paddingStart="28dp"-->
+<!--                        android:paddingEnd="5dp"-->
+<!--                        android:maxLength="18"-->
+<!--                        android:paddingTop="5dp"-->
+<!--                        android:paddingBottom="5dp"-->
+<!--                        android:background="@drawable/ed_bg"-->
+<!--                        android:textSize="14sp"-->
+<!--                        android:visibility="visible"/>-->
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="15dp"-->
+<!--                        android:layout_height="15dp"-->
+<!--                        android:layout_alignParentStart="true"-->
+<!--                        android:layout_marginStart="10dp"-->
+<!--                        android:layout_marginTop="8dp"-->
+<!--                        android:src="@drawable/calander"-->
+<!--                        android:contentDescription="img_date"-->
+<!--                        tools:ignore="HardcodedText" />-->
+<!--                </RelativeLayout>-->
+<!--            </LinearLayout>-->
+
+            <LinearLayout
+                android:id="@+id/llDate"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.dynamicform.utils.NoScrollRecycler
+                    android:id="@+id/rvRowDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:overScrollMode="never"
+                    android:nestedScrollingEnabled="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llImageText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/r_image1"
+                    android:visibility="visible"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_photo1"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_margin="10dp"
+                        android:background="#E0E0E0"/>
+
+                    <TextView
+                        android:id="@+id/text_click_img1"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:text="Click here to add image"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:id="@+id/text_change_img1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/img_photo"
+                        android:text="Click to change image"
+                        android:gravity="center"
+                        android:visibility="gone"/>
+
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/r_image2"
+                    android:visibility="visible"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_photo2"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_margin="10dp"
+                        android:background="#E0E0E0"/>
+
+                    <TextView
+                        android:id="@+id/text_click_img2"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:text="Click here to add image"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:id="@+id/text_change_img2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/img_photo"
+                        android:text="Click to change image"
+                        android:gravity="center"
+                        android:visibility="gone"/>
+
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/r_image3"
+                    android:visibility="visible"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_photo3"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_margin="10dp"
+                        android:background="#E0E0E0"/>
+
+                    <TextView
+                        android:id="@+id/text_click_img3"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:text="Click here to add image"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:id="@+id/text_change_img3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/img_photo"
+                        android:text="Click to change image"
+                        android:gravity="center"
+                        android:visibility="gone"/>
+
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/r_image4"
+                    android:visibility="visible"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_photo4"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_margin="10dp"
+                        android:background="#E0E0E0"/>
+
+                    <TextView
+                        android:id="@+id/text_click_img4"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:text="Click here to add image"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:id="@+id/text_change_img4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/img_photo"
+                        android:text="Click to change image"
+                        android:gravity="center"
+                        android:visibility="gone"/>
+
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/r_image5"
+                    android:visibility="visible"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_photo5"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_margin="10dp"
+                        android:background="#E0E0E0"/>
+
+                    <TextView
+                        android:id="@+id/text_click_img5"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:text="Click here to add image"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:id="@+id/text_change_img5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/img_photo"
+                        android:text="Click to change image"
+                        android:gravity="center"
+                        android:visibility="gone"/>
+
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/r_image6"
+                    android:visibility="visible"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_photo6"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_margin="10dp"
+                        android:background="#E0E0E0"/>
+
+                    <TextView
+                        android:id="@+id/text_click_img6"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:text="Click here to add image"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:id="@+id/text_change_img6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/img_photo"
+                        android:text="Click to change image"
+                        android:gravity="center"
+                        android:visibility="gone"/>
+
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/r_image7"
+                    android:visibility="visible"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_photo7"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_margin="10dp"
+                        android:background="#E0E0E0"/>
+
+                    <TextView
+                        android:id="@+id/text_click_img7"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:text="Click here to add image"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:id="@+id/text_change_img7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/img_photo"
+                        android:text="Click to change image"
+                        android:gravity="center"
+                        android:visibility="gone"/>
+
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/r_image8"
+                    android:visibility="visible"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_photo8"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_margin="10dp"
+                        android:background="#E0E0E0"/>
+
+                    <TextView
+                        android:id="@+id/text_click_img8"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:text="Click here to add image"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:id="@+id/text_change_img8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/img_photo"
+                        android:text="Click to change image"
+                        android:gravity="center"
+                        android:visibility="gone"/>
+
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/r_image9"
+                    android:visibility="visible"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_photo9"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_margin="10dp"
+                        android:background="#E0E0E0"/>
+
+                    <TextView
+                        android:id="@+id/text_click_img9"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:text="Click here to add image"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:id="@+id/text_change_img9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/img_photo"
+                        android:text="Click to change image"
+                        android:gravity="center"
+                        android:visibility="gone"/>
+
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/r_image10"
+                    android:visibility="visible"
+                    >
+
+                    <ImageView
+                        android:id="@+id/img_photo10"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        android:layout_margin="10dp"
+                        android:background="#E0E0E0"/>
+
+                    <TextView
+                        android:id="@+id/text_click_img10"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_margin="10dp"
+                        android:text="Click here to add image"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"/>
+
+                    <TextView
+                        android:id="@+id/text_change_img10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:layout_below="@+id/img_photo"
+                        android:text="Click to change image"
+                        android:gravity="center"
+                        android:visibility="gone"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+<!--    </HorizontalScrollView>-->
+</LinearLayout>

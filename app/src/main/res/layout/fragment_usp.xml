@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragments.usp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* - Required Fields and ** - 1 to 4 inputs only"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            android:id="@+id/text_usp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/cp_usp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:layout_margin="15dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <Button
+                    android:id="@+id/btn_previous"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:text="Previous"
+                    android:visibility="gone"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/log_bg"
+                    android:textColor="@color/colorWhite" />
+
+                <Button
+                    android:id="@+id/save"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:text="SAVE"
+                    android:background="@drawable/log_bg"
+                    android:textColor="@color/colorWhite" />
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_margin="25dp"-->
+        <!--android:paddingBottom="100dp">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:weightSum="2">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="266dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:padding="10dp"-->
+                <!--android:text="Overall hybrid performance and consumer feeedback:"-->
+                <!--android:textColor="@color/colorBlack"-->
+                <!--android:textSize="14sp" />-->
+
+            <!--<RelativeLayout-->
+                <!--android:id="@+id/rspin"-->
+                <!--android:layout_width="190dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_marginEnd="10dp"-->
+                <!--android:visibility="visible">-->
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/spin"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="25dp"-->
+                    <!--android:background="@drawable/ed_bg"-->
+                    <!--android:hint="Crop"-->
+                    <!--android:paddingBottom="5dp"-->
+                    <!--android:paddingTop="5dp"-->
+                    <!--android:textSize="12sp"-->
+                    <!--android:visibility="visible" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="15dp"-->
+                <!--android:layout_height="15dp"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:layout_marginEnd="10dp"-->
+                <!--android:src="@drawable/down_arrow" />-->
+            <!--</RelativeLayout>-->
+        <!--</LinearLayout>-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dp"-->
+            <!--android:text="Critical observations which are not covered above:"-->
+            <!--android:textColor="@color/colorBlack"-->
+            <!--android:textSize="14sp" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/edit"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="textMultiLine"-->
+            <!--android:background="@color/colorLightGray"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginStart="15dp"-->
+            <!--android:maxLength="150"-->
+            <!--android:padding="30dp"-->
+            <!--android:textSize="14sp" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dp"-->
+            <!--android:text="Feedback of sales team:"-->
+            <!--android:textColor="@color/colorBlack"-->
+            <!--android:textSize="14sp" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/compet"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="textMultiLine"-->
+            <!--android:background="@color/colorLightGray"-->
+            <!--android:maxLength="150"-->
+            <!--android:layout_marginStart="15dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:padding="30dp"-->
+            <!--android:textSize="14sp" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dp"-->
+            <!--android:text="Feedback of farmers/agents:"-->
+            <!--android:textColor="@color/colorBlack"-->
+            <!--android:textSize="14sp" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/benefits"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="textMultiLine"-->
+            <!--android:layout_marginStart="15dp"-->
+            <!--android:background="@color/colorLightGray"-->
+            <!--android:maxLength="150"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:padding="30dp"-->
+            <!--android:textSize="14sp" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dp"-->
+            <!--android:text="USP of selected hybrid:"-->
+            <!--android:textColor="@color/colorBlack"-->
+            <!--android:textSize="14sp" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/usp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="textMultiLine"-->
+            <!--android:layout_marginStart="15dp"-->
+            <!--android:background="@color/colorLightGray"-->
+            <!--android:maxLength="150"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:padding="30dp"-->
+            <!--android:textSize="14sp" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/save"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_marginTop="25dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="Save"-->
+            <!--android:background="@drawable/log_bg"-->
+            <!--android:textColor="@color/colorWhite"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+
+</ScrollView>
+
+
